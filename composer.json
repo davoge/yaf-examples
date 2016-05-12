@@ -1,0 +1,10 @@
+{
+    "name": "djv/yaf-examples",
+    "authors": [
+        {
+            "name": "davoge",
+            "email": "coollikefonzy@me.com"
+        }
+    ],
+    "require": {}
+}
