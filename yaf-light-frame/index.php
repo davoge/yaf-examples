@@ -2,7 +2,7 @@
 define("APP_PATH",  dirname(__FILE__));
 define("YAF",1);
 define('STARTTIME', microtime(true));
-
+echo dirname(__FILE__);
 /**
  * yaf默认只支持application/library 目录下类的加载
  * 并且不允许Yaf打头的第三方类出现
@@ -50,7 +50,7 @@ function addslashes_deep($value)
 
 
 try{
-    $app  = new Yaf\Application(APP_PATH . "/conf/application.ini");
+    $app  = new Yaf\Application("/app/yaf-light-frame/conf/application.ini");
 
     switch ( $app->environ() ){
         case 'testing':
